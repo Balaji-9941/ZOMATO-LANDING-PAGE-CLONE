@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero_section{
+    background: url(https://github.com/rohan1917/10123-J-20123-Zomato-Landing-Page/blob/setup/images/heroSectionBackground.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    position:static;
+    width:100%;
+    min-height: 60vh;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 40px;
+    padding:35px 250px;
+
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.navbar_menu_container{
+    display: flex;
+    gap:40px;
+}
+.navbar_menu_container .user_icon{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: solid 1px white;
+    display: none;
+   }
+@media only screen and(max-width:600px){
+    .navbar_menu_container .user_icon{
+    display: flex;
+    }
+    .link{
+        display: none;
+    }
+}
+.logo{
+    height:80px;
+    margin-top: 35px;
+}
+.logoi{
+    height:60px;
+    width:290px;
+    margin-left:610px;
+}
+.logodown{
+color:white;
+font-size: 25px;
+
+margin-left:350px;
+margin-top: 15px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.i1{
+    background-color: white;
+    margin-left: 370px;
+    margin-right: 350px;
+    width: 780px;
+    height:50px;
+    border-radius: 10px;
+
+}
+.i11{
+    
+    width:30%;
+    height:50px;
+    font-size: 15px;
+    border:none;
+    outline: none;
+    color: grey;
+    border-right: solid 1px;
+}
+.i12{
+    width: 63.74%;
+    height:50px;
+    margin-left: 0px;
+    font-size: 15px;
+    border: solid 1px white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
